@@ -36,15 +36,6 @@ Headquarters: Rocklin, California (with global offices including Michigan and Ch
 
 Partnerships: Maintains deep integration partnerships with major enterprise software ecosystems like Oracle, SAP, and Salesforce
 
-This project was built with [Lovable](https://lovable.dev).
-
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/6e683053-6b41-4628-90e9-a8b9022fc5bf).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
 
 ## Development
 

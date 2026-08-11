@@ -5,7 +5,7 @@ import { createClient } from "@supabase/supabase-js";
 import { enquirySchema } from "./enquiry-schema";
 
 export const submitEnquiry = createServerFn({ method: "POST" })
-  .inputValidator((data: unknown) => enquirySchema.parse(data))
+  .validator((data: unknown) => enquirySchema.parse(data))
   .handler(async ({ data }) => {
     const url = process.env["SUPABASE_URL"];
     const key = process.env["SUPABASE_PUBLISHABLE_KEY"];
