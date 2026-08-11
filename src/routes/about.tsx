@@ -95,7 +95,7 @@ function AboutPage() {
           <h2 className="font-display text-2xl font-semibold">Work with the Chennai team</h2>
           <Link
             to="/contact"
-            className="inline-flex w-fit items-center gap-2 rounded-sm bg-primary px-6 py-3 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary-deep"
+            className="inline-flex w-fit items-center gap-2 rounded-sm bg-primary px-6 py-3 text-sm font-medium text-primary-foreground transition-colors hover:bg-navy"
           >
             Contact us
             <ArrowRight className="size-4" aria-hidden="true" />

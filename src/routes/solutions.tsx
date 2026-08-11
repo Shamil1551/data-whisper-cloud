@@ -75,7 +75,7 @@ function SolutionsPage() {
         </h2>
         <Link
           to="/contact"
-          className="inline-flex w-fit items-center gap-2 rounded-sm bg-primary px-6 py-3 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary-deep"
+          className="inline-flex w-fit items-center gap-2 rounded-sm bg-primary px-6 py-3 text-sm font-medium text-primary-foreground transition-colors hover:bg-navy"
         >
           Ask our team
           <ArrowRight className="size-4" aria-hidden="true" />

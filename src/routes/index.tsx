@@ -30,7 +30,7 @@ const ICONS = [Database, GitCompareArrows, ShieldCheck, Network, Archive, Sparkl
 function HomePage() {
   return (
     <div>
-      <section className="relative overflow-hidden bg-primary-deep text-primary-foreground">
+      <section className="relative overflow-hidden bg-navy text-primary-foreground">
         <img
           src={heroImage}
           alt=""
@@ -54,7 +54,7 @@ function HomePage() {
           <div className="mt-10">
             <Link
               to="/contact"
-              className="inline-flex items-center gap-2 rounded-sm bg-primary-foreground px-6 py-3 text-sm font-semibold text-primary-deep transition-opacity hover:opacity-90"
+              className="inline-flex items-center gap-2 rounded-sm bg-primary-foreground px-6 py-3 text-sm font-semibold text-navy transition-opacity hover:opacity-90"
             >
               Talk to our Chennai team
               <ArrowRight className="size-4" aria-hidden="true" />
@@ -117,7 +117,7 @@ function HomePage() {
             <div className="mt-9">
               <Link
                 to="/products"
-                className="inline-flex items-center gap-2 rounded-sm bg-primary px-5 py-3 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary-deep"
+                className="inline-flex items-center gap-2 rounded-sm bg-primary px-5 py-3 text-sm font-medium text-primary-foreground transition-colors hover:bg-navy"
               >
                 See the platform
                 <ArrowRight className="size-4" aria-hidden="true" />
@@ -160,7 +160,7 @@ function HomePage() {
           </div>
           <Link
             to="/contact"
-            className="inline-flex w-fit items-center gap-2 rounded-sm bg-primary px-6 py-3 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary-deep"
+            className="inline-flex w-fit items-center gap-2 rounded-sm bg-primary px-6 py-3 text-sm font-medium text-primary-foreground transition-colors hover:bg-navy"
           >
             Start a conversation
             <ArrowRight className="size-4" aria-hidden="true" />

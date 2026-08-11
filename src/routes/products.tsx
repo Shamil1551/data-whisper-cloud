@@ -30,7 +30,7 @@ export const Route = createFileRoute("/products")({
 function ProductsPage() {
   return (
     <div>
-      <header className="border-b border-border bg-primary-deep text-primary-foreground">
+      <header className="border-b border-border bg-navy text-primary-foreground">
         <div className="mx-auto grid max-w-6xl items-center gap-12 px-5 py-16 sm:py-20 lg:grid-cols-[1.1fr_1fr]">
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-primary-foreground/70">
@@ -91,7 +91,7 @@ function ProductsPage() {
           </div>
           <Link
             to="/contact"
-            className="inline-flex w-fit items-center gap-2 rounded-sm bg-primary px-6 py-3 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary-deep"
+            className="inline-flex w-fit items-center gap-2 rounded-sm bg-primary px-6 py-3 text-sm font-medium text-primary-foreground transition-colors hover:bg-navy"
           >
             Request a walkthrough
             <ArrowRight className="size-4" aria-hidden="true" />
