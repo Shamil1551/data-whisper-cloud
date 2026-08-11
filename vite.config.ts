@@ -6,4 +6,10 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
+  // The Lovable config wrapper defaults Nitro to the Cloudflare Workers preset, which produces
+  // a `wrangler`-shaped build Vercel can't run. This app deploys to Vercel, so pin that preset
+  // explicitly instead of relying on autodetection.
+  nitro: {
+    preset: "vercel",
+  },
 });
